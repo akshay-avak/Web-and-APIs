@@ -9,8 +9,8 @@ print(type(data))
 print(data["setup"]+"😎")
 print(data["punchline"]+"🤣😂")
 ```  
-
-```
+Output👇
+``` 
 {'type': 'general', 'setup': 'What do you call fake spaghetti?', 'punchline': 'An impasta.', 'id': 450}
 <class 'dict'>
 What do you call fake spaghetti?😎
