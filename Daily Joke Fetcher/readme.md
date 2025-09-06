@@ -26,16 +26,16 @@ import requests
 ```
 - `requests` is a popular python library.
 - Used for making **HTTP**(Hypertext Transfer Protocol) requests to webpages,API's,Web servers.
-- `requests' is used for:
+- `requests` is used for:
     - Accessing webpages programatically
-    - Consuming REST APIs (GET, POST, PUT, DELETE)
+    - Using REST APIs (GET, POST, PUT, DELETE)
     - Sending data (like form data or JSON) to servers
     - Downloading files from the internet
     - Handling authentication, cookies, and sessions
 
 ## More explanation for me about the points  
 - **Accessing webpages programatically** - By using a python script(.py file) we can send an HTTP request to a webpage,API,web server WITHOUT having to open a web browser and cliking on the link.  
-- **Consuming REST APIs (GET, POST, PUT, DELETE)** - `requests` library is usually used to interact with REST APIs(Representational State Transfer API).  
+- **Using REST APIs (GET, POST, PUT, DELETE)** - `requests` library is usually used to interact with REST APIs(Representational State Transfer API).  
 
 >Common HTTP methods in REST APIs are: ( GPPD )
 >1. GET -> Retrieve data.Used to fetch information from the server.  
@@ -93,6 +93,19 @@ print(data["punchline"]+"🤣😂")
 - `print(data["setup"]+"😎")` means in the dictionary `data` use the key 'setup' and fetch it's value and concatenate the emoji at the end.
 - `print(data["punchline"]+"🤣😂")` means in the dictionary `data` use the key 'punchline` and fetch it's value and concatenate the emojis at the end.
 
-Note
-about urllib and requests
-about REST APIs
+
+
+### Installation
+1. **Clone the repository**
+```bash
+git clone https://github.com/akshay-avak/Web-and-APIs.git
+```
+2. **Navigate to the project folder**
+```bash
+ cd Daily Joke Fetcher
+ ```
+
+3. Install dependencies (if any)
+```bash
+pip install -r requirements.txt
+```
