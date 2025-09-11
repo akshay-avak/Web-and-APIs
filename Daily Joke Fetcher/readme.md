@@ -1,3 +1,8 @@
+## 🎥 Preview in Action
+<img src="./ShowCase.gif" alt="To-Do List Demo" width="700">  
+
+## Code
+
 ```python
 import requests
 response = requests.get("https://official-joke-api.appspot.com/jokes/random")
